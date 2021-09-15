@@ -1,0 +1,12 @@
+person:
+  name: duhonglei
+  age: 20
+  happy: true
+  maps: {k1: v1, k2: v2}
+  lists:
+    - music
+    - eat
+    - dog
+  dog:
+    name: ${person.hello:hello}旺财
+    age: 3
